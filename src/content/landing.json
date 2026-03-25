@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "¡Hola! Soy Aledí, ilustradora y diseñadora gráfica.",
+    "text": "Introvertida pero sonriente. Fan De Disney y Pixar."
+  },
+  "example": {
+    "title": "A veces dibujo así y otras veces dibujo así",
+    "imageFinished": "",
+    "imageFinishedAlt": "",
+    "imageSketch": "",
+    "imageSketchAlt": ""
+  },
+  "footer": {
+    "title": "Me encantan la coca cola, el café y los perros chihuahua.",
+    "text": "Gracias por visitar mi sitio. Si quiéres conocer más puedes visitar mi Facebook, Instagram, Blog o Portafolio"
+  },
+  "english": {
+    "title": "Hi, i'm Aledí, illustrator and graphic designer.",
+    "text": "Thank you for visiting my site, if you want to know more about me, you can check my facebook, instagram, blog or portfolio"
+  },
+  "redes": {
+    "fb": "https://www.facebook.com/aledi.ilustracion/",
+    "instagram": "https://www.instagram.com/_aledi/",
+    "blog": "https://aledibuja.blogspot.mx/",
+    "portafolio": "https://www.behance.net/aledi"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "base": {
+      "$type": "color",
+      "$value": "#24273a"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#1e2030"
+    },
+    "foreground": {
+      "$type": "color",
+      "$value": "#cad3f5"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#a5adcb"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#7dc4e4"
+    },
+    "accent-soft": {
+      "$type": "color",
+      "$value": "#494d64"
+    }
+  }
+}

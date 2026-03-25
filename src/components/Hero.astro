@@ -1,23 +1,23 @@
 ---
-import type { HeroData } from '../types'
-import HeroSvg from './svgs/HeroSvg.astro'
-
-const { data } = Astro.props as { data: HeroData }
+import data from '../content/landing.json'
 ---
 
-<section class="ui-section ui-section-odd">
-  <div class="ui-section-container flow">
-    <div class="lg:grid lg:cols-3 lg:items-center lg:gap-xl flow">
-      <div class="lg:col-span-2 flow">
-        <h1 class="ui-text-title-1">{data.title}</h1>
-        <p class="ui-text-base">{data.text}</p>
-      </div>
-      <div class="lg:col-span-1 flex place-content-center block">
-        <HeroSvg class="color-foreground" label={data.imageAlt} />
-      </div>
-    </div>
-
-    <a class="ui-button inline-block p-s" href="#">{data.cta}</a>
-    <p class="ui-text-sm">{data.ctaCopy}</p>
+<section class="text-step-1">
+  <h1 class="text-step-1">{data.hero.title}</h1>
+  <p>{data.hero.text}</p>
+  <p>{data.example.title}</p>
+  <div>
+    <p>{data.footer.title}</p>
+    <p>{data.footer.text}</p>
+  </div>
+  <div>
+    <p>{data.english.title}</p>
+    <p>{data.english.text}</p>
+  </div>
+  <div class="block">
+    <a href={data.redes.fb} class="ui-button">Facebook</a>
+    <a href={data.redes.instagram} class="ui-button">Instagram</a>
+    <a href={data.redes.blog} class="ui-button">Blog</a>
+    <a href={data.redes.portafolio} class="ui-button">Portafolio</a>
   </div>
 </section>

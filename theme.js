@@ -40,7 +40,7 @@ export default {
     loose: 'var(--lineHeight-loose, 1.7)',
   },
   fontFamily: {
-    base: 'var(--fontFamily-base, Inter, Roboto, Arial, sans-serif)',
+    base: 'var(--fontFamily-base, DK Lemon Yellow Sun, Arial, sans-serif)',
   },
   spacing: {
     '3xs':
