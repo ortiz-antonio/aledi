@@ -4,11 +4,11 @@
     "text": "Introvertida pero sonriente. Fan De Disney y Pixar."
   },
   "example": {
-    "title": "A veces dibujo así y otras veces dibujo así",
-    "imageFinished": "",
-    "imageFinishedAlt": "",
-    "imageSketch": "",
-    "imageSketchAlt": ""
+    "title": "A veces dibujo así y otras veces dibujo así.",
+    "imageFinished": "images/ale-detail.jpg",
+    "imageFinishedAlt": "Dibujo con detalle de la autora",
+    "imageSketch": "images/ale-sketch.jpg",
+    "imageSketchAlt": "Dibujo sketch de perrito"
   },
   "footer": {
     "title": "Me encantan la coca cola, el café y los perros chihuahua.",

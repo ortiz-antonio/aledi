@@ -1,26 +1,22 @@
 const UI_TEXT = `
   break-words 
-  text-foreground
-  font-base font-regular line-height-standard
+  text-base font-base font-regular line-height-standard
 `
 
-const UI_TEXT_TITLE = `font-bold text-accent `
+const UI_TEXT_TITLE = `font-bold`
 
 export const UI_BTN_ACCENT = `
   bg-accent
 `
 
 export default {
-  'ui-button': `inline-block pa-xs min-w-30 text-center
-         bg-[url('/images/bg-button.png')] bg-cover bg-center bg-no-repeat`,
+  'ui-button': `inline-block pa-xs 
+        text-center decoration-none text-color-base font-bold
+        bg-[url('/images/bg-button.png')] bg-cover bg-center bg-no-repeat`,
 
-  'ui-section': `w-full`,
-
-  'ui-section-odd': `bg-surface`,
-
-  'ui-section-container': `
-    max-w-7xl mx-auto p-m
-    `,
+  'ui-button-small': `inline-block pa-xs 
+        text-center decoration-none text-color-base font-bold
+        bg-[url('/images/bg-blog-button.png')] bg-cover bg-center bg-no-repeat`,
 
   'ui-text-base': `
     text-step-1
