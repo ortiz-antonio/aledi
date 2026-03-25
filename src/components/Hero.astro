@@ -2,20 +2,20 @@
 import data from '../content/landing.json'
 ---
 
-<section class="grid grid-cols-3">
-  <div class="col-span-1">
-    <img src={data.example.imageFinished} alt={data.example.imageFinishedAlt} />
-  </div>
-  <div class="col-span-2">
-    <h1 class="text-step-1">{data.hero.title}</h1>
-    <p>
-      {data.hero.text}
-      <br />
-      {data.example.title}
-      <span class="inline-block text-right m-0 p-0"
-        ><img src={data.example.imageSketch} alt={data.example.imageSketchAlt} />
-      </span>
-    </p>
+<section class="[ grid md:grid-cols-3 ]">
+  <div class="md:col-span-2">
+    <div class="">
+      <h1 class="ui-text-title-1">{data.hero.title}</h1>
+      <p>
+        {data.hero.text}
+        <br />
+        {data.example.title}
+      </p>
+    </div>
+    <div class="grid grid-cols-2 md:col-span-1 w-fit mx-auto">
+      <img class="justify-self-start" src={data.example.imageFinished} alt={data.example.imageFinishedAlt} />
+      <img class="justify-self-end" src={data.example.imageSketch} alt={data.example.imageSketchAlt} />
+    </div>
 
     <div>
       <p>{data.footer.title}</p>
