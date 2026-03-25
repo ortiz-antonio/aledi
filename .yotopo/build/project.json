@@ -1,0 +1,18 @@
+{
+  "project": {
+    "template": "template-tokens-uno-astro",
+    "title": "Aledi",
+    "name": "aledi",
+    "description": "Ilustradora y diseñadora gráfica",
+    "directory": "/home/ortiz/Dev/aledi",
+    "author": {
+      "name": "Antonio Ortiz",
+      "username": "ortiz-antonio",
+      "url": "https://ortiz.studio"
+    },
+    "links": {
+      "repository": "git@github.com:ortiz-antonio/aledi.git",
+      "homepage": "https://ortiz-antonio.github.io/aledi"
+    }
+  }
+}

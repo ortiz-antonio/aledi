@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "astro/tsconfigs/strict"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": [
+      "vite/client"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    ".astro/types.d.ts",
+    "**/*"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

@@ -1,0 +1,14 @@
+---
+import StakeholderImpact from 'src/components/StakeholderImpact.astro'
+import Hero from '../components/Hero.astro'
+import * as landing from '../content/landing.md'
+
+import Layout from '../layouts/Layout.astro'
+
+const { hero, impact } = landing.frontmatter
+---
+
+<Layout>
+  <Hero data={hero} />
+  <StakeholderImpact data={impact} />
+</Layout>
