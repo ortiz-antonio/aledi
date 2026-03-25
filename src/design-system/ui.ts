@@ -1,6 +1,6 @@
 const UI_TEXT = `
   break-words 
-  text-base font-base font-regular line-height-standard
+  text-base font-base font-regular line-height-fine
 `
 export const UI_BTN_ACCENT = `
   bg-accent
